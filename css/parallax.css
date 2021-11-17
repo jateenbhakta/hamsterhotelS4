@@ -1,0 +1,32 @@
+.hero {
+	height: 70vh;
+	/* max-height: 600px; */
+	/* width: 700px; */
+	background-image:		
+   		url('../images/hero/cara.png'),
+		url("../images/hero/roada.png"), 
+		url('../images/hero/cloudsb.png'),
+		url('../images/hero/herob.png'),
+		url("../images/hero/suna.png"),
+		url("../images/hero/skya.png");
+	background-repeat: repeat-x;
+	background-position: 
+		0 100%;
+	background-size: 
+		cover;
+	/* animation: 50s para infinite linear; */
+	animation: 50s para infinite linear;
+	}
+	
+
+@keyframes para {
+	100% {
+		background-position: 
+        5000px 100%,
+			-5000px 100%,
+			-800px 100%,
+			500px 100%,
+			0px 100%,
+			-800px 100%;
+		}
+	}
